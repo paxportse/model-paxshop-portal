@@ -67,8 +67,8 @@
 		"typescript": "^4.9.4"
 	},
 	"dependencies": {
-		"cloudly-http": "github:utily/cloudly-http#tvartom-improved-callbacks",
-		"cloudly-rest": "github:utily/cloudly-rest#tvartom-improved-callbacks",
+		"cloudly-http": "^0.1.1",
+		"cloudly-rest": "^0.1.1",
 		"@paxport/model-paxshop": "^0.0.108"
 	}
 }
