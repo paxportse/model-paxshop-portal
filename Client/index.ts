@@ -17,6 +17,7 @@ export class Client extends rest.Client<gracely.Error> {
 		const httpClient = new http.Client<gracely.Error>(server, undefined, {
 			appendHeader: () => ({
 				referer,
+				authorization: "Something",
 			}),
 		})
 		const result = new Client(httpClient)
